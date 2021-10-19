@@ -11,7 +11,7 @@
         <MedicalInfo/>
 
         <!-- why choose us section -->
-        <Appointment />
+        <About />
 
         <!-- about app -->
         <CounterUpTwo/>
@@ -52,8 +52,8 @@
 <script>
     import NavBar from '../uscmpc/NavBar'
     import Banner from '../uscmpc/Banner'
+    import About from '../uscmpc/About'
     import MedicalInfo from '../components/MedicalInfo'
-    import Appointment from '../components/Appointment'
     import CounterUpTwo from '../components/CounterUpTwo'
     import Service from '../components/Service'
     import TestimonialFour from '../components/TestimonialFour'
@@ -71,8 +71,8 @@
         components: {
             NavBar,
             Banner,
+            About,
             MedicalInfo,
-            Appointment,
             CounterUpTwo,
             Service,
             TestimonialFour,
