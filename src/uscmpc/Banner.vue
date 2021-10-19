@@ -9,7 +9,7 @@
                         :dots = "false"
                         :loop = "true"
                         :autoplay = "true"
-                        :smartSpeed = "1000"
+                        :smartSpeed = "5000"
                     >
                         <!-- single slider item -->
                         <div v-for="(slider, sliders) in sliders" :key="sliders" class="hero-slider-item">
@@ -23,7 +23,7 @@
                                         <h2 class="slider-title">{{ slider.sliderTitle }}</h2>
                                         <p class="slider-desc">{{ slider.sliderDesc }}</p>
                                         <div class="slider-btn">
-                                            <a href="#" class="btn btn-round">LEARN MORE</a>
+                                            <a :href="slider.link" class="btn btn-round">{{ slider.buttonText }}</a>
                                         </div>
                                     </div>
                                 </div>
@@ -56,18 +56,22 @@
                 },
                 sliders: [
                     {
-                        sliderThumb: require("../assets/img/home-medical/slider/1.png"), 
-                        logo: require("../assets/img/home-medical/slider/slider-logo.png"), 
-                        subtitle: 'THE BEST HOSPITALITY VUE TEMPLATE FOREVER!', 
-                        sliderTitle: 'FANTASIC HEALTH SYSTEM', 
-                        sliderDesc: 'Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.'
+                        sliderThumb: require("../assets/img/home-uscmpc/slider/member.png"), 
+                        logo: require("../assets/img/home-uscmpc/slider/slider-logo.png"), 
+                        subtitle: 'USC & Community Multi-Purpose Cooperative', 
+                        sliderTitle: 'Become One of Us', 
+                        sliderDesc: 'Hassle free online application. At your own convinience.',
+                        buttonText: 'APPLY HERE',
+                        link: '#'
                     },
                     {
-                        sliderThumb: require("../assets/img/home-medical/slider/2.png"), 
-                        logo: require("../assets/img/home-medical/slider/slider-logo.png"), 
-                        subtitle: 'THE BEST HOSPITALITY VUE TEMPLATE FOREVER!', 
-                        sliderTitle: 'FANTASIC HEALTH SYSTEM', 
-                        sliderDesc: 'Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.'
+                        sliderThumb: require("../assets/img/home-uscmpc/slider/2.png"), 
+                        logo: require("../assets/img/home-uscmpc/slider/slider-logo.png"), 
+                        subtitle: 'USC & Community Multi-Purpose Cooperative', 
+                        sliderTitle: 'Special General Assembly Meeting', 
+                        sliderDesc: 'October 24, 2021 (07:00 AM to 12:00 NN) via ZOOM',
+                        buttonText: 'JOIN US',
+                        link: 'http://www.event.uscmpc.com'
                     },
                 ]
             }
