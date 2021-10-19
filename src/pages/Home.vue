@@ -44,7 +44,7 @@
         <GoogleMap />
 
         <!-- footer section -->
-        <FooterTwo />
+        <Footer />
 
     </div>
 </template>
@@ -64,7 +64,7 @@
     import Department from '../components/Department'
     import Blog from '../components/Blog'
     import GoogleMap from '../components/GoogleMap'
-    import FooterTwo from '../components/FooterTwo'
+    import Footer from '../uscmpc/Footer'
 
     export default {
         name: 'app',
@@ -83,7 +83,7 @@
             Department,
             Blog,
             GoogleMap,
-            FooterTwo,
+            Footer,
         }
     }
 </script>
