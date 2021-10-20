@@ -14,7 +14,7 @@
         <About />
 
         <!-- about app -->
-        <CounterUpTwo/>
+        <CounterUp/>
 
         <!-- Service style -->
         <Service />
@@ -53,8 +53,11 @@
     import NavBar from '../uscmpc/NavBar'
     import Banner from '../uscmpc/Banner'
     import About from '../uscmpc/About'
+    import CounterUp from '../uscmpc/CounterUp'
+    import GoogleMap from '../uscmpc/GoogleMap'
+    import Footer from '../uscmpc/Footer'
+
     import MedicalInfo from '../components/MedicalInfo'
-    import CounterUpTwo from '../components/CounterUpTwo'
     import Service from '../components/Service'
     import TestimonialFour from '../components/TestimonialFour'
     import TeamDoctor from '../components/TeamDoctor'
@@ -63,8 +66,6 @@
     import CallToAction from '../components/CallToAction'
     import Department from '../components/Department'
     import Blog from '../components/Blog'
-    import GoogleMap from '../uscmpc/GoogleMap'
-    import Footer from '../uscmpc/Footer'
 
     export default {
         name: 'app',
@@ -73,7 +74,7 @@
             Banner,
             About,
             MedicalInfo,
-            CounterUpTwo,
+            CounterUp,
             Service,
             TestimonialFour,
             TeamDoctor,
