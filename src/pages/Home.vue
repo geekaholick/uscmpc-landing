@@ -63,7 +63,7 @@
     import CallToAction from '../components/CallToAction'
     import Department from '../components/Department'
     import Blog from '../components/Blog'
-    import GoogleMap from '../components/GoogleMap'
+    import GoogleMap from '../uscmpc/GoogleMap'
     import Footer from '../uscmpc/Footer'
 
     export default {

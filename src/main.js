@@ -17,6 +17,7 @@ import '../src/assets/css/pe-icon-7-stroke.css'
 import 'swiper/dist/css/swiper.css'
 import 'animate.css/animate.min.css'
 import '../src/assets/scss/style.scss'
+import 'leaflet/dist/leaflet.css';
 
 
 Vue.config.productionTip = false
