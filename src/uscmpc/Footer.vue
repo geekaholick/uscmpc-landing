@@ -85,20 +85,20 @@ export default {
             socials: [
                 {
                     icon: "fa fa-facebook",
-                    url: "https://www.facebook.com/"
+                    url: "https://www.facebook.com/groups/347906875621343"
                 },
-                {
-                    icon: "fa fa-twitter",
-                    url: "https://twitter.com/"
-                },
-                {
-                    icon: "fa fa-behance",
-                    url: "https://www.behance.net/"
-                },
-                {
-                    icon: "fa fa-dribbble",
-                    url: "https://dribbble.com/"
-                }
+                // {
+                //     icon: "fa fa-twitter",
+                //     url: "https://twitter.com/"
+                // },
+                // {
+                //     icon: "fa fa-behance",
+                //     url: "https://www.behance.net/"
+                // },
+                // {
+                //     icon: "fa fa-dribbble",
+                //     url: "https://dribbble.com/"
+                // }
             ]
         }
     }
