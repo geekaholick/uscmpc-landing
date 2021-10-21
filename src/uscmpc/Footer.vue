@@ -37,7 +37,7 @@
 
                     <div class="col-lg-4">
                         <div class="widget-item">
-                            <h5 class="widget-title">BUSINESS HOURS</h5>
+                            <h5 class="widget-title">OUR NEWSLETTER</h5>
                             <div class="widget-body newsletter-widget">
                                 <p>Please subscribe below if you would like to keep updated.</p>
                                 <form class="newsletter-form">
