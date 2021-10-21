@@ -12,7 +12,8 @@
                                     <li><strong>Phone 1 :</strong>(+63) 032 416 8032</li>
                                     <li><strong>Phone 2:</strong>(+63) 032 384 0024</li>
                                     <li><strong>Email :</strong>official.uscmpc@gmail.com</li>
-                                    <li><strong>Office Hours:</strong>Mon-Sat 8:00 AM - 5:00 PM</li>
+                                    <li><strong>Office Hours:</strong>Mon-Fri 8:00 AM - 5:00 PM</li>
+                                    <li><strong>Office Hours:</strong>    Sat 8:00 AM - 5:00 PM</li>
                                 </ul>
                             </div>
                         </div>

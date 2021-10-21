@@ -26,7 +26,7 @@
                             </div>
                             <div class="text">
                                 <ICountUp
-                                    :endVal="765"
+                                    :endVal="845"
                                 />
                                 <p>Regular Members</p>
                             </div>
@@ -42,7 +42,7 @@
                             </div>
                             <div class="text">
                                 <ICountUp
-                                    :endVal="230"
+                                    :endVal="110"
                                 />
                                 <p>Associate Members</p>
                             </div>
@@ -58,7 +58,7 @@
                             </div>
                             <div class="text">
                                 <ICountUp
-                                    :endVal="2"
+                                    :endVal="6"
                                 />
                                 <p>Awards</p>
                             </div>
