@@ -17,22 +17,22 @@
         <CounterUp/>
 
         <!-- Testimonial section -->
-        <TestimonialFour testimonialStyle="testimonial-five" />
+        <!-- <TestimonialFour testimonialStyle="testimonial-five" /> -->
 
         <!-- team section -->
-        <TeamDoctor />
+        <!-- <TeamDoctor /> -->
 
         <!-- download section -->
-        <DownloadFour />
+        <!-- <DownloadFour /> -->
 
         <!-- policy section -->
-        <Policy />
+        <!-- <Policy /> -->
 
         <!-- call to action -->
-        <CallToAction />
+        <!-- <CallToAction /> -->
 
         <!-- department section -->
-        <Department />
+        <!-- <Department /> -->
 
         <!-- Blog section -->
         <Blog />
@@ -55,12 +55,12 @@
     import GoogleMap from '../uscmpc/GoogleMap'
     import Footer from '../uscmpc/Footer'
 
-    import TestimonialFour from '../components/TestimonialFour'
-    import TeamDoctor from '../components/TeamDoctor'
-    import DownloadFour from '../components/DownloadFour'
-    import Policy from '../components/Policy'
-    import CallToAction from '../components/CallToAction'
-    import Department from '../components/Department'
+    // import TestimonialFour from '../components/TestimonialFour'
+    // import TeamDoctor from '../components/TeamDoctor'
+    // import DownloadFour from '../components/DownloadFour'
+    // import Policy from '../components/Policy'
+    // import CallToAction from '../components/CallToAction'
+    // import Department from '../components/Department'
     import Blog from '../components/Blog'
 
     export default {
@@ -71,12 +71,12 @@
             Services,
             About,
             CounterUp,
-            TestimonialFour,
-            TeamDoctor,
-            DownloadFour,
-            Policy,
-            CallToAction,
-            Department,
+            // TestimonialFour,
+            // TeamDoctor,
+            // DownloadFour,
+            // Policy,
+            // CallToAction,
+            // Department,
             Blog,
             GoogleMap,
             Footer,
