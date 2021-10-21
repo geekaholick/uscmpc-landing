@@ -4,25 +4,25 @@
         <!-- Navbar section -->
         <NavBar />
 
-        <CooperativeProfile />
+        <History />
 
         <!-- footer section -->
-        <FooterTwo />
+        <Footer />
 
     </div>
 </template>
 
 <script>
-    import NavBar from '../uscmpc/NavBar'
-    import CooperativeProfile from '../uscmpc/CooperativeProfile'
-    import FooterTwo from '../components/FooterTwo'
+    import NavBar from '../../uscmpc/NavBarTwo'
+    import History from '../../uscmpc/History'
+    import Footer from '../../uscmpc/Footer'
 
     export default {
         name: 'app',
         components: {
             NavBar,
-            CooperativeProfile,
-            FooterTwo,
+            History,
+            Footer,
         }
     }
 </script>

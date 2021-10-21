@@ -7,22 +7,22 @@
         <CooperativeOfficers />
 
         <!-- footer section -->
-        <FooterTwo />
+        <Footer />
 
     </div>
 </template>
 
 <script>
-    import NavBar from '../uscmpc/NavBar'
-    import CooperativeOfficers from '../uscmpc/CooperativeOfficers'
-    import FooterTwo from '../components/FooterTwo'
+    import NavBar from '../../uscmpc/NavBarTwo'
+    import CooperativeOfficers from '../../uscmpc/CooperativeOfficers'
+    import Footer from '../../uscmpc/Footer'
 
     export default {
         name: 'app',
         components: {
             NavBar,
             CooperativeOfficers,
-            FooterTwo,
+            Footer,
         }
     }
 </script>

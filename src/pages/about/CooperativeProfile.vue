@@ -4,25 +4,25 @@
         <!-- Navbar section -->
         <NavBar />
 
-        <AwardsDistinctions />
+        <CooperativeProfile />
 
         <!-- footer section -->
-        <FooterTwo />
+        <Footer />
 
     </div>
 </template>
 
 <script>
-    import NavBar from '../uscmpc/NavBar'
-    import AwardsDistinctions from '../uscmpc/AwardsDistinctions'
-    import FooterTwo from '../components/FooterTwo'
+    import NavBar from '../../uscmpc/NavBarTwo'
+    import CooperativeProfile from '../../uscmpc/CooperativeProfile'
+    import Footer from '../../uscmpc/Footer'
 
     export default {
         name: 'app',
         components: {
             NavBar,
-            AwardsDistinctions,
-            FooterTwo,
+            CooperativeProfile,
+            Footer,
         }
     }
 </script>
