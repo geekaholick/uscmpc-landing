@@ -18,21 +18,21 @@
                             <span></span>
                         </div>
                         <ul class="main-menu main-menu__style-2">
-                            <li class="test">
+                            <li>
                                 <a
                                     @click="close_menu()"
-                                    href="#home"
+                                    href="http://localhost:8080/"
                                     class="activee"
                                     >Home</a
                                 >
                             </li>
-                            <li class="test">
-                                <a @click="close_menu()" href="#service"
+                            <li>
+                                <a @click="close_menu()" href="http://localhost:8080/#service"
                                     >Product and Service</a
                                 >
                             </li>
-                            <li class="test">
-                                <a @click="close_menu()" href="#about"
+                            <li>
+                                <a @click="close_menu()" href="http://localhost:8080/#about"
                                     >About Us</a
                                 >
                             </li>

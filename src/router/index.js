@@ -7,6 +7,10 @@ import AwardsDistinctions from '../pages/AwardsDistinctions'
 import PhotosVideos from '../pages/PhotosVideos'
 import NotFound from '../pages/404'
 import Coming_soon from '../pages/Coming_soon'
+import Savings from '../pages/services/Savings'
+import Lending from '../pages/services/Lending'
+import CoopMart from '../pages/services/CoopMart'
+import Services from '../pages/services/OtherServices'
 
 export const routes = [
     {
@@ -55,5 +59,24 @@ export const routes = [
         name: 'Photos and Videos',
         component: PhotosVideos
     },
-    
+    {
+        path:'/savings',
+        name: 'Savings / Share Capital',
+        component: Savings
+    },
+    {
+        path:'/lending',
+        name: 'Lending',
+        component: Lending
+    },
+    {
+        path:'/coop-mart',
+        name: 'Consumer Store',
+        component: CoopMart
+    },
+    {
+        path:'/services',
+        name: 'Other Services',
+        component: Services
+    },
 ];

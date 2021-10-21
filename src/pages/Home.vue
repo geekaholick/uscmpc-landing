@@ -7,17 +7,14 @@
         <!-- slider section -->
         <Banner />
 
-        <!-- Medical info section -->
-        <MedicalInfo/>
+        <!-- Main services section -->
+        <Services />
 
         <!-- why choose us section -->
         <About />
 
         <!-- about app -->
         <CounterUp/>
-
-        <!-- Service style -->
-        <Service />
 
         <!-- Testimonial section -->
         <TestimonialFour testimonialStyle="testimonial-five" />
@@ -52,13 +49,12 @@
 <script>
     import NavBar from '../uscmpc/NavBar'
     import Banner from '../uscmpc/Banner'
+    import Services from '../uscmpc/Services'
     import About from '../uscmpc/About'
     import CounterUp from '../uscmpc/CounterUp'
     import GoogleMap from '../uscmpc/GoogleMap'
     import Footer from '../uscmpc/Footer'
 
-    import MedicalInfo from '../components/MedicalInfo'
-    import Service from '../components/Service'
     import TestimonialFour from '../components/TestimonialFour'
     import TeamDoctor from '../components/TeamDoctor'
     import DownloadFour from '../components/DownloadFour'
@@ -72,10 +68,9 @@
         components: {
             NavBar,
             Banner,
+            Services,
             About,
-            MedicalInfo,
             CounterUp,
-            Service,
             TestimonialFour,
             TeamDoctor,
             DownloadFour,
