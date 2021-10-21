@@ -4,25 +4,25 @@
         <!-- Navbar section -->
         <NavBar />
 
-        <BoardOfDirectors />
+        <PhotosVideos />
 
         <!-- footer section -->
-        <FooterTwo />
+        <Footer />
 
     </div>
 </template>
 
 <script>
-    import NavBar from '../uscmpc/NavBar'
-    import BoardOfDirectors from '../uscmpc/BoardOfDirectors'
-    import FooterTwo from '../components/FooterTwo'
+    import NavBar from '../../uscmpc/NavBarTwo'
+    import PhotosVideos from '../../uscmpc/PhotosVideos'
+    import Footer from '../../uscmpc/Footer'
 
     export default {
         name: 'app',
         components: {
             NavBar,
-            BoardOfDirectors,
-            FooterTwo,
+            PhotosVideos,
+            Footer,
         }
     }
 </script>
