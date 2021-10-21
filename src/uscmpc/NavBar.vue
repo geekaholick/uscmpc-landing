@@ -38,7 +38,7 @@
                             </li>
                             <li>
                                 <a href="http://www.event.uscmpc.com/login"
-                                    >Member's Portal</a
+                                    ><i class="fa fa-user-secret"></i> Member's Portal</a
                                 >
                             </li>
                         </ul>
