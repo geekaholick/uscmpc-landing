@@ -63,7 +63,8 @@ export default {
                     title: "AWARDS AND DISTINCTIONS", 
                     desc: "Achievements acquired through the years.", 
                     icon: "fa fa-graduation-cap",
-                    link: "awards-distinctions"
+                    // link: "awards-distinctions"
+                    link: "under-construction"
                 },
                 {
                     title: "PHOTOS AND VIDEOS", 
