@@ -61,7 +61,7 @@
     // import Policy from '../components/Policy'
     // import CallToAction from '../components/CallToAction'
     // import Department from '../components/Department'
-    import Blog from '../components/Blog'
+    import Blog from '../uscmpc/Blog'
 
     export default {
         name: 'app',
