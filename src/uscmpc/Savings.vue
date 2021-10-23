@@ -9,39 +9,37 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="screenshot-gallery text-center">
-                        <swiper :options="swiperOption">
-                            <swiper-slide>
-                                <div class="scr-thumb">
-                                    <img src="../assets/img/screenshot/scr-1.jpg" alt="screenshot thumb">
-                                </div>
-                            </swiper-slide>
-                            <swiper-slide>
-                                <div class="scr-thumb">
-                                    <img src="../assets/img/screenshot/scr-2.jpg" alt="screenshot thumb">
-                                </div>
-                            </swiper-slide>
-                            <swiper-slide>
-                                <div class="scr-thumb">
-                                    <img src="../assets/img/screenshot/scr-3.jpg" alt="screenshot thumb">
-                                </div>
-                            </swiper-slide>
-                            <swiper-slide>
-                                <div class="scr-thumb">
-                                    <img src="../assets/img/screenshot/scr-2.jpg" alt="screenshot thumb">
-                                </div>
-                            </swiper-slide>
-                            <swiper-slide>
-                                <div class="scr-thumb">
-                                    <img src="../assets/img/screenshot/scr-3.jpg" alt="screenshot thumb">
-                                </div>
-                            </swiper-slide>
-                            <!-- Optional controls -->
-                            <div class="swiper-button-prev" slot="button-prev"></div>
-                            <div class="swiper-button-next" slot="button-next"></div>
-                        </swiper>
+            <div v-for="(about, abouts) in abouts" :key="abouts" class="row">
+                <div v-if="abouts%2==0" class="col-lg-6">
+                    <div class="download-wrapper-five section-padding">
+                        <div class="section-title title-style-5 text-center">
+                            <h2 class="title">{{ about.title }}</h2>
+                            <p class="paragraph-light">{{ about.desc }}</p>
+                        </div>
+                        <div class="download-content-five">
+                            <p>{{ about.test }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div v-else class="col-lg-6">
+                    <div class="app-thumb">
+                        <img :src="`${about.pic}`" alt="app thumb">
+                    </div>
+                </div>
+                <div v-if="abouts%2==0" class="col-lg-6">
+                    <div class="app-thumb">
+                        <img :src="`${about.pic}`" alt="app thumb">
+                    </div>
+                </div>
+                <div v-else class="col-lg-6">
+                    <div class="download-wrapper-five section-padding">
+                        <div class="section-title title-style-5 text-center">
+                            <h2 class="title">{{ about.title }}</h2>
+                            <p class="paragraph-light">{{ about.desc }}</p>
+                        </div>
+                        <div class="download-content-five">
+                            <p>{{ about.test }}</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,7 +83,27 @@
                             spaceBetween: 20
                         }
                     }
-                }
+                },
+                abouts:[
+                    {
+                        title: "USC COLLEGE",
+                        desc: "Nam liber tempor cum soluta nobis eleifend option cong nihil imperdiet.",
+                        test: "you got that long hair sweat jeans thing amabob",
+                        pic: require(`../assets/img/home-medical/app.png`),
+                    },
+                    {
+                        title: "USC SENIOR HIGH SCHOOL", 
+                        desc: "Nam liber tempor cum soluta nobis eleifend option cong nihil imperdiet.",
+                        test: "you got that long hair sweat jeans thing amabob",
+                        pic: require(`../assets/img/home-medical/app.png`),
+                    },
+                    {
+                        title: "USC HIGH SCHOOL", 
+                        desc: "Nam liber tempor cum soluta nobis eleifend option cong nihil imperdiet.", 
+                        test: "you got that long hair sweat jeans thing amabob",
+                        pic: require(`../assets/img/home-medical/app.png`),
+                    },
+                ],
             }
         }
     }
