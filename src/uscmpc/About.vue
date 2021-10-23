@@ -11,7 +11,7 @@
             </div>
             <div class="row mtn-30">
                 <!-- single item start -->
-                <div v-for="(about, abouts) in abouts" :key="abouts" class="col-lg-4 col-md-6">
+                <div v-for="(about, abouts) in abouts" :key="abouts" class="col-lg-4 col-sm-4">
                     <div class="about-item-two">
                         <div class="about-icon">
                             <a :href="about.link"><i :class="about.icon"></i></a>
@@ -37,37 +37,37 @@ export default {
              abouts:[
                 {
                     title: "HISTORY",
-                    desc: "Nam liber tempor cum soluta nobis eleifend option cong nihil imperdiet.", 
+                    desc: "The cooperative history looks back on the beginning of who we are now.", 
                     icon: "fa fa-book",
                     link: "history"
                 },
                 {
                     title: "COOPERATIVE PROFILE", 
-                    desc: "Nam liber tempor cum soluta nobis eleifend option cong nihil imperdiet.", 
+                    desc: "The general structure of the USC & Community Multi-Purpose Cooperative as a company and cooperative.", 
                     icon: "fa fa-address-card",
                     link: "cooperative-profile"
                 },
                 {
                     title: "BOARD OF DIRECTORS", 
-                    desc: "Nam liber tempor cum soluta nobis eleifend option cong nihil imperdiet.", 
+                    desc: "The governing body that represents the interest of the cooperative.", 
                     icon: "fa fa-group",
                     link: "board-of-directors"
                 },
                 {
                     title: "COOPERATIVE OFFICERS", 
-                    desc: "Nam liber tempor cum soluta nobis eleifend option cong nihil imperdiet.", 
+                    desc: "The supporting body that helps in the operation of the cooperative.", 
                     icon: "fa fa-gears",
                     link: "cooperative-officers"
                 },
                 {
                     title: "AWARDS AND DISTINCTIONS", 
-                    desc: "Nam liber tempor cum soluta nobis eleifend option cong nihil imperdiet.", 
+                    desc: "Achievements acquired through the years.", 
                     icon: "fa fa-graduation-cap",
                     link: "awards-distinctions"
                 },
                 {
                     title: "PHOTOS AND VIDEOS", 
-                    desc: "Nam liber tempor cum soluta nobis eleifend option cong nihil imperdiet.", 
+                    desc: "The captured moments that we hope to remember as a cooperative.", 
                     icon: "fa fa-folder-open",
                     link: "photos-videos"
                 }
