@@ -46,13 +46,15 @@ export default {
                     title: "CONSUMER STORE (Coop Mart)", 
                     desc: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.", 
                     icon: "fa fa-shopping-cart",
-                    link: "coop-mart"
+                    // link: "coop-mart"
+                    link: "under-construction"
                 },
                 {
                     title: "OTHER SERVICES", 
                     desc: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.", 
                     icon: "fa fa-sign-in",
-                    link: "services"
+                    // link: "services"
+                    link: "under-construction"
                 }
             ]
         }

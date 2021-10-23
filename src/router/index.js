@@ -6,6 +6,7 @@ import CooperativeOfficers from '../pages/about/CooperativeOfficers'
 import AwardsDistinctions from '../pages/about/AwardsDistinctions'
 import PhotosVideos from '../pages/about/PhotosVideos'
 import NotFound from '../pages/404'
+import Under_construction from '../pages/Under_construction'
 import Coming_soon from '../pages/Coming_soon'
 import Savings from '../pages/services/Savings'
 import Lending from '../pages/services/Lending'
@@ -17,6 +18,11 @@ export const routes = [
         path:'*',
         name: 'NotFound',
         component: NotFound
+    },
+    {
+        path:'/under-construction',
+        name: 'UnderConstruction',
+        component: Under_construction
     },
     {
         path:'/coming-soon',
