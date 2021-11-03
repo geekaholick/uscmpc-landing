@@ -4,3 +4,10 @@
 @import "spacing.scss";
 @import "common.scss";
 @import "../scss/components.scss";
+
+.multi-line-truncate {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
