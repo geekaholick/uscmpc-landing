@@ -5,6 +5,7 @@ import VueAwesomeSwiper from 'vue-awesome-swiper'
 import VueRouter from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
 import VueSilentbox from 'vue-silentbox'
+import store from '../src/store'
 
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
@@ -34,5 +35,6 @@ const router = new VueRouter({
 
 new Vue({
     render: h => h(App),
-    router
+    router,
+    store
 }).$mount('#app')
