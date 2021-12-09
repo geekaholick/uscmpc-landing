@@ -3,14 +3,14 @@
         <div class="container">
             <div class="row mtn-30">
                 <!-- single item start -->
-                <div v-for="(about, abouts) in abouts" :key="abouts" class="col-lg-3 col-md-6">
-                    <a :href="about.link">
+                <div v-for="(service, services) in abouts" :key="services" class="col-lg-3 col-md-6">
+                    <a :href="service.link">
                     <div class="about-item">
                         <div class="about-icon">
-                            <i :class="about.icon"></i>
+                            <i :class="service.icon"></i>
                         </div>
                         <div class="about-content">
-                            <h6>{{ about.title }}</h6>
+                            <h6>{{ service.title }}</h6>
                             <!-- <p>{{ about.desc }}</p> -->
                         </div>
                     </div>
@@ -23,6 +23,8 @@
 </template>
 
 <script>
+import * as servicesTypes from '@/store/types/services';
+import { mapActions, mapGetters } from 'vuex';
 
 export default {
     name: 'Services',
@@ -58,7 +60,22 @@ export default {
                 }
             ]
         }
-    }
+    },
+    computed: {
+    ...mapGetters({
+      services: servicesTypes.GETTER_SERVICES
+    })
+  },
+  created() {
+    this.getServices().then(() => {
+      // this.sliders = this.services;
+    });
+  },
+   methods: {
+    ...mapActions({
+      getServices: servicesTypes.ACTION_GET_SERVICES
+    })
+  }
 }
 </script>
 

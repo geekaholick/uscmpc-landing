@@ -12,7 +12,7 @@
                 <div class="col-4">
                     <div class="custom_testimonial-item">
                         <div class="custom_testimonial-thumb">
-                            <img src="../assets/img/bod/glarino.jpg" alt="client thumb">
+                            <img src="../assets/img/coop-officers/default.png" alt="client thumb">
                         </div>
                         <div class="testimonial-content">
                             <h6 class="custom_client">Glenn Glarino</h6>
