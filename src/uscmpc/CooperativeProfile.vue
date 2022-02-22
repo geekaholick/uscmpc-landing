@@ -21,10 +21,9 @@ export default {
     };
   },
   mounted() {
-    const data = fetch("http://localhost:9999/profiles")
+    const data = fetch("http://"+process.env.VUE_APP_HOST+":"+process.env.VUE_APP_DATABASE_PORT+"/profiles")
       .then((res) => res.json())
       .then((result) => {
-        console.log(this.test);
         this.test = result;
       });
   },    
