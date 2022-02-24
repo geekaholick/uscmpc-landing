@@ -81,7 +81,6 @@ export default {
   created() {
     this.getBanners().then(() => {
       this.sliders = this.banners;
-      console.log(this.sliders);
     });
   },
   methods: {
