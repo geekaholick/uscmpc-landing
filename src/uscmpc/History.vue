@@ -45,7 +45,7 @@ export default {
     };
   },
   mounted() {
-    axios.get("http://localhost:8081/history").then(test => {
+    axios.get('http://'+process.env.VUE_APP_HOST+':'+process.env.VUE_APP_DATABASE_PORT+'/history').then(test => {
       this.content = test.data;
     });
   }

@@ -24,7 +24,8 @@
     "vue-router": "^3.0.7",
     "vue-silentbox": "^0.1.9",
     "vue2-google-maps": "^0.10.7",
-    "vue2-leaflet": "^2.7.1"
+    "vue2-leaflet": "^2.7.1",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
@@ -46,7 +47,9 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
