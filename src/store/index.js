@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 
 // Modules
 import savings from '@/store/modules/savings'
+import banner from '@/store/modules/banner'
 
 
 Vue.use(Vuex)
@@ -10,6 +11,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   modules: {
     savings,
+    banner
   },
   strict: process.env.DEV,
 })

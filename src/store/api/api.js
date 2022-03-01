@@ -1,8 +1,9 @@
 import axios from 'axios'
 
-const api = axios.create({
-  baseURL: 'http://localhost:3900',
-  withCredentials: false,
+const BaseApi = axios.create({
+  baseURL: 'http://'+process.env.VUE_APP_HOST+':'+process.env.VUE_APP_DATABASE_PORT,
 })
 
-export default api
+const Api = () => BaseApi
+
+export default Api
