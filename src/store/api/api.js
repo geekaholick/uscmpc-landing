@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const BaseApi = axios.create({
-  baseURL: 'http://localhost:8089',
+  baseURL: 'http://'+process.env.VUE_APP_HOST+':'+process.env.VUE_APP_DATABASE_PORT,
 })
 
 const Api = () => BaseApi
