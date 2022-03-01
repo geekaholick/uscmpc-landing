@@ -1,5 +1,5 @@
 import * as savingsTypes from "@/store/types/savings";
-import api from "@/store/api/api";
+import Api from "@/store/api/api";
 
 const state = {
   savings: []
@@ -11,7 +11,7 @@ const getters = {
 
 const actions = {
   async [savingsTypes.ACTION_GET_SAVINGS]({ commit }) {
-    await api
+    await Api()
       .get("/savings")
       .then(res => {
         commit(savingsTypes.MUTATION_SET_SAVINGS, res.data);

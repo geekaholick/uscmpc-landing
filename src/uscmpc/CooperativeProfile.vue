@@ -21,7 +21,7 @@ export default {
     };
   },
   mounted() {
-    const data = fetch("http://"+process.env.VUE_APP_HOST+":"+process.env.VUE_APP_DATABASE_PORT+"/profiles")
+    fetch("http://"+process.env.VUE_APP_HOST+":"+process.env.VUE_APP_DATABASE_PORT+"/profiles")
       .then((res) => res.json())
       .then((result) => {
         this.test = result;
